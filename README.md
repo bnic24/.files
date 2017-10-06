@@ -1,2 +1,2 @@
 # .files
-Configurations files for various programs. 
+Configuration files for various programs. 
