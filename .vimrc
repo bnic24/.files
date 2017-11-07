@@ -12,7 +12,7 @@ set autoindent
 set statusline+=%F "add full path to status line
 set laststatus=2 "always display status line
 set list
-set listchars=eol:¬,tab:▸\
+set listchars=eol:¬,tab:▸·
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
 inoremap <A-j> <Esc>:m .+1<CR>==gi
