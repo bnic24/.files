@@ -6,7 +6,7 @@ set encoding=utf-8
 set hlsearch
 set incsearch
 set ignorecase
-set shiftwidth=1
+set shiftwidth=4
 set tabstop=4
 set autoindent
 set statusline+=%F "add full path to status line
