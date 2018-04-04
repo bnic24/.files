@@ -123,6 +123,8 @@ alias words='cd ~/words-1.97Ed && ./words'
 #alias foxit='~/opt/foxitsoftware/foxitreader/FoxitReader'
 alias tpon='synclient TouchpadOff=0'
 alias tpoff='synclient TouchpadOff=1'
-alias rs='redshift -O 2250'
+alias rs='redshift -O 2750'
 #z - jump around 
 . ~/z.sh
+#set vim as default editor
+export EDITOR=vim
