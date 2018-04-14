@@ -128,3 +128,5 @@ alias rs='redshift -O 2750'
 . ~/z.sh
 #set vim as default editor
 export EDITOR=vim
+#set less as the default pager (workaround for ranger bug cf. https://github.com/ranger/ranger/issues/750)
+export PAGER=less
