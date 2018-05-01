@@ -124,6 +124,7 @@ alias words='cd ~/words-1.97Ed && ./words'
 alias tpon='synclient TouchpadOff=0'
 alias tpoff='synclient TouchpadOff=1'
 alias rs='redshift -O 2750'
+alias r='ranger'
 #z - jump around 
 . ~/z.sh
 #set vim as default editor
