@@ -14,20 +14,23 @@ set laststatus=2 "always display status line
 set list
 set listchars=eol:¬,tab:▸·
 set backspace=indent,eol,start "makes backspace behave as you would expect
-" Resize windows
+" resize windows
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
 inoremap <A-j> <Esc>:m .+1<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
-" Use CTRL-S for saving, also in Insert mode
+" use CTRL-S for saving, also in Insert mode
 noremap <C-S> :update<CR>
 vnoremap <C-S> <C-C>:update<CR>
 inoremap <C-S> <C-O>:update<CR>
+" remap : to ;
+nmap ; :
 " change the leader key to space (which does pretty much nothing in normal mode
 let mapleader = "\<Space>" 
 " toggle paste in cmd only
 nnoremap <Leader>p :set invpaste<CR>
-" Add the pry debug line with <Leader>bp 
+" add the pry debug line with <Leader>bp 
 map <Leader>bp obinding.pry<esc>:w<cr>
+
