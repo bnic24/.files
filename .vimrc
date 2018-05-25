@@ -27,13 +27,7 @@ vnoremap <C-S> <C-C>:update<CR>
 inoremap <C-S> <C-O>:update<CR>
 " change the leader key to space (which does pretty much nothing in normal mode
 let mapleader = "\<Space>" 
-" cursor crosshairs (for finding a lost cursor)
-hi CursorLine   cterm=NONE ctermbg=235
-hi CursorColumn cterm=NONE ctermbg=235
-nnoremap <Leader>x :set cursorline! cursorcolumn!
 " toggle paste in cmd only
 nnoremap <Leader>p :set invpaste<CR>
 " Add the pry debug line with <Leader>bp 
 map <Leader>bp obinding.pry<esc>:w<cr>
-
-
