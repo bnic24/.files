@@ -125,9 +125,16 @@ alias tpon='synclient TouchpadOff=0'
 alias tpoff='synclient TouchpadOff=1'
 alias rs='redshift -O 2750'
 alias r='ranger'
+
 #z - jump around 
 . ~/z.sh
+
 #set vim as default editor
 export EDITOR=vim
+
 #set less as the default pager (workaround for ranger bug cf. https://github.com/ranger/ranger/issues/750)
 export PAGER=less
+
+#stop ctrl + s from suspending the terminal output (and unbind ctrl + q, which resumes output?)
+bind -r '\C-s'
+stty -ixon
