@@ -27,6 +27,8 @@ vnoremap <C-S> <C-C>:update<CR>
 inoremap <C-S> <C-O>:update<CR>
 " remap : to ;
 nmap ; :
+" remap jj to esc
+:inoremap jj <Esc>
 " change the leader key to space (which does pretty much nothing in normal mode
 let mapleader = "\<Space>" 
 " toggle paste in cmd only
