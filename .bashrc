@@ -125,6 +125,7 @@ alias tpon='synclient TouchpadOff=0'
 alias tpoff='synclient TouchpadOff=1'
 alias rs='redshift -O 2750'
 alias r='ranger'
+alias bim='vim'
 
 #z - jump around 
 . ~/z.sh
