@@ -35,4 +35,5 @@ let mapleader = "\<Space>"
 nnoremap <Leader>p :set invpaste<CR>
 " add the pry debug line with <Leader>bp 
 map <Leader>bp obinding.pry<esc>:w<cr>
-
+" run hardtime by default
+let g:hardtime_default_on = 1
