@@ -126,6 +126,12 @@ alias tpoff='synclient TouchpadOff=1'
 alias rs='redshift -O 2750'
 alias r='ranger'
 alias bim='vim'
+# git aliases
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gap='git add --patch'
+alias gti='git'
 
 #z - jump around 
 . ~/z.sh
