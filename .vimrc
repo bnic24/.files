@@ -37,3 +37,5 @@ nnoremap <Leader>p :set invpaste<CR>
 map <Leader>bp obinding.pry<esc>:w<cr>
 " run hardtime by default
 let g:hardtime_default_on = 1
+" close the YCM preview window automatically 
+let g:ycm_autoclose_preview_window_after_completion = 1
