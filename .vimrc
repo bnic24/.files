@@ -14,6 +14,7 @@ set laststatus=2 "always display status line
 set list
 set listchars=eol:¬,tab:▸·
 set backspace=indent,eol,start "makes backspace behave as you would expect
+set relativenumber "relative line numbers 
 " resize windows
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
