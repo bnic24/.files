@@ -148,3 +148,6 @@ export PAGER=less
 #stop ctrl + s from suspending the terminal output (and unbind ctrl + q, which resumes output?)
 bind -r '\C-s'
 stty -ixon
+
+#autojump (similar to z)
+. /usr/share/autojump/autojump.sh
