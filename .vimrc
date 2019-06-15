@@ -45,4 +45,4 @@ map <Leader>ft $bba, focus: true<esc>
 " close the YCM preview window automatically 
 let g:ycm_autoclose_preview_window_after_completion = 1
 " convert an assignment to a let statement
-map <Leader>^ilet(:jjlxepf=r{A }jj^
+map <Leader>l ^ilet(:jjlxepf=r{A }jj^
