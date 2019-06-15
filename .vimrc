@@ -42,6 +42,7 @@ let g:hardtime_default_on = 1
 map<Leader>ht :HardTimeToggle<CR>
 " insert and remove 'focus: true' leaders
 map <Leader>ft $bba, focus: true<esc>
-map <Leader>rft $bi^W^W^W^W" <esc>
 " close the YCM preview window automatically 
 let g:ycm_autoclose_preview_window_after_completion = 1
+" convert an assignment to a let statement
+map <Leader>^ilet(:jjlxepf=r{A }jj^
