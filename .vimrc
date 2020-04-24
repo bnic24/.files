@@ -33,7 +33,7 @@ nmap ; :
 " change the leader key to space (which does pretty much nothing in normal mode
 let mapleader = "\<Space>" 
 " toggle paste in cmd only
-nnoremap <Leader>p :set invpaste<CR>
+nnoremap <Leader>ip :set invpaste<CR>
 " add the pry debug line with <Leader>bp 
 map <Leader>bp obinding.pry<esc>:w<cr>
 " run hardtime by default
@@ -46,3 +46,6 @@ map <Leader>ft $bba, focus: true<esc>
 let g:ycm_autoclose_preview_window_after_completion = 1
 " convert an assignment to a let statement
 map <Leader>l ^ilet(:jjlxepf=r{A }jj^
+" insert the yanked content on a new line
+map <Leader>p :pu<CR>
+map <Leader>P :pu!<CR>
